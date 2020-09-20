@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
@@ -60,20 +59,13 @@ body, html {
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"></i> About</a>
-    <a href="https://t.me/noefforttoken" class="w3-bar-item w3-button w3-hide-small"></i> Telegram</a>
-    <a href="https://uniswap.info/home" class="w3-bar-item w3-button w3-hide-small"></i> Uniswap</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small">About</i></a>
+    <a href="https://t.me/noefforttoken" class="w3-bar-item w3-button w3-hide-small">Telegram</i> </a>
+    <a href="https://uniswap.info/home" class="w3-bar-item w3-button w3-hide-small">Uniswap</i> </a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
     </a>
   </div>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">About</a>
-    <a href="https://t.me/noefforttoken" class="w3-bar-item w3-button" onclick="toggleFunction()">Telegram</a>
-    <a href="https://uniswap.info/home" class="w3-bar-item w3-button" onclick="toggleFunction()">Uniswap</a>
-  </div>
-</div>
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
